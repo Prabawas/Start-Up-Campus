@@ -5,10 +5,13 @@ a = np.array([1, 2, 3, 4, 5, 6])
 b = [1, 2, 3, 4, 5, 6, 7]
 
 # Membuat range array
-c = np.arange(1, 20, 3)  # (start, last, range)
+c = np.arange(1, 20, 10)  # (start, end, range)
 
 # Membuat linier Space
-d = np.linspace(1, 20, 30)  # (start, last, jumlah)
+d = np.linspace(1, 20, 10)  # (start, end, jumlah)
+
+print(c)
+print(d)
 
 # Membuat matriks biasa
 e = np.array(([1, 2, 3, 4, 5],
@@ -25,4 +28,4 @@ h1 = np.identity(7)
 h2 = np.eye(7)
 
 # display
-print(e)
+# print(e)
